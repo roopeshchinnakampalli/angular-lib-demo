@@ -1,0 +1,48 @@
+<div>Capabilities home...</div>
+<!-- <div class="back-link  mb-4 row">
+</div>
+<div class="row">
+  <div class="col-md" id="dashboardSec">
+    <div class="card border-0">
+      <div class="card-body">
+        <div class="pane">
+          <ng-container>
+            <div class="aw-list-group" *ngFor="let category of capabilityGroup|keys">
+              <h5 class="mb-4 andesbold">{{category}}</h5>
+              <div class="row aw-list-group">
+                <div class="col-lg-auto col-sm-6 addpagesection" *ngFor="let capability of capabilityGroup[category]">
+                  <ng-container [ngTemplateOutlet]="capabilityTmpl"
+                    [ngTemplateOutletContext]="{currentCapability: capability}"></ng-container>
+                </div>
+              </div>
+            </div>
+          </ng-container>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<ng-template #capabilityTmpl let-item="currentCapability">
+  <div class="d-flex add-widget-item flex-column justify-content-between h-100">
+    <div>
+      <div class="aw-widget-ico">
+        <i class="ws-sprite icon-{{item.page}}" aria-hidden="true"></i>
+      </div>
+      <div class="media-body">
+        <h6 class="aw-title">{{item.text}}</h6>
+      </div>
+    </div>
+    <div class="border-top text-center py-2">
+      <div *ngIf="!item.active" (click)="addCapability(item)"><button
+          class="btn btn-default btn-sm widget-action add">ADD</button></div>
+      <div *ngIf="item.active" (click)="addCapability(item)"><button
+          class="btn btn-default btn-sm widget-action remove">Remove</button></div>
+    </div>
+  </div>
+</ng-template>
+
+
+<ng-template #noresults>
+  No capabilities Found
+</ng-template> -->

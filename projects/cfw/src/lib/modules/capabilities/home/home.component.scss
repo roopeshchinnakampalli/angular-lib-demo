@@ -1,0 +1,56 @@
+.aw-list-group {
+  &:not(:last-child) {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+  }
+  .addpagesection {
+    .add-widget-item {
+      border: 0.5px solid rgba(0, 0, 0, 0.08);
+      border-radius: 4px;
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+      min-width: 225px;
+      .aw-widget-ico {
+        background-color: #fafafa;
+        padding: 16px;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+      }
+      .aw-title {
+        padding: 10px 16px;
+        color: rgba(0, 0, 0, 0.87);
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: 0.25px;
+        line-height: 19px;
+        display: block !important;
+      }
+      .widget-action {
+        font-weight: bold;
+        font-size: 11px;
+        text-transform: uppercase;
+        &.add {
+          color: #0373bd;
+        }
+        &.remove {
+          color: #d93280;
+        }
+      }
+      .aw-txt-added {
+        color: #77b139;
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .aw-list-group {
+    .addpagesection {
+      margin-bottom: 20px;
+      position: relative;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ngx-lib-ivy-bug",
+  "version": "0.0.10",
+  "peerDependencies": {
+    "@angular/cdk": "^8.2.3",
+    "@angular/animations": "^8.2.12",
+    "@angular/common": "^8.2.12",
+    "@angular/compiler": "^8.2.12",
+    "@angular/core": "^8.2.12",
+    "@angular/forms": "^8.2.12",
+    "@angular/http": "^8.2.12"
+  }
+}

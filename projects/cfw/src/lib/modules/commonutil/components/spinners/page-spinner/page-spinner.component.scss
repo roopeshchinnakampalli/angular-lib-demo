@@ -1,0 +1,47 @@
+.progress-spinner {
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -70px 0 0px -57px;
+}
+
+.progress-spinner span {
+  transition: all 500ms ease;
+  background: #4A72DA;
+  height: 14px;
+  width: 14px;
+  display: inline-block;
+  border-radius: 50%;
+  animation: wave 2s ease infinite;
+  margin-left: 10px
+}
+
+.progress-spinner span:nth-child(1) {
+  animation-delay: 0;
+}
+
+.progress-spinner span:nth-child(2) {
+  animation-delay: 100ms;
+}
+
+.progress-spinner span:nth-child(3) {
+  animation-delay: 200ms;
+}
+
+.progress-spinner span:nth-child(4) {
+  animation-delay: 300ms;
+}
+
+@keyframes wave {
+
+  0%,
+  40%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  10% {
+    transform: translate(0, -15px);
+  }
+}
