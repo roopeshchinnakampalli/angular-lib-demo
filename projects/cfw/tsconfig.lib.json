@@ -14,6 +14,7 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
+    "importHelpers": true,
     "esModuleInterop": true,
     "strictPropertyInitialization": false
   },
